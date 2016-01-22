@@ -33,14 +33,14 @@ public class HelloWorld extends ExampleSupport {
 
 	public String execute() throws Exception {
         setMessage(getText(MESSAGE));
-        
+        System.out.println("Hello world");
         
         return SUCCESS;
         
     }
 
     /**
-     * Provide default valuie for Message property.
+     * Provide default values for Message .
      */
     public static final String MESSAGE = "HelloWorld.message";
 
